@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/iLearn/iLearn/obj
+/iLearn/iLearn/appsettings.Development.json
+/iLearn/iLearn/bin/Debug/net5.0
+/iLearn/.vs/iLearn/DesignTimeBuild
+/.vs/Git/v16
+/.vs
+/iLearn/.vs/iLearn
