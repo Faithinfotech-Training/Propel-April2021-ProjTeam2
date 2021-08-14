@@ -6,3 +6,5 @@
 /iLearn/iLearn/bin/Debug/netcoreapp2.1
 /iLearn/iLearn/obj
 /iLearn/iLearn/appsettings.Development.json
+/.vs
+/iLearn/iLearn/bin/Debug/net5.0
