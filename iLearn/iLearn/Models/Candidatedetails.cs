@@ -9,10 +9,9 @@ namespace iLearn.Models
         public int? Courseid { get; set; }
         public int? Degreeid { get; set; }
         public string Coursename { get; set; }
-<<<<<<< HEAD
+
         public string Candidatename { get; set; }
-=======
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+
         public string Candidateimage { get; set; }
         public string Candidatenumber { get; set; }
         public string Email { get; set; }

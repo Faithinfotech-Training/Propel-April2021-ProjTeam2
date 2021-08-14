@@ -28,13 +28,13 @@ namespace iLearn.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-<<<<<<< HEAD
+
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
                 optionsBuilder.UseSqlServer("Data Source=faithpropelapril.cyjryyniianp.ap-south-1.rds.amazonaws.com;Initial Catalog=MainProject;User ID=team2;Password=team2");
-=======
+
 
              optionsBuilder.UseSqlServer("ConStr");
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+
             }
         }
 
@@ -59,14 +59,13 @@ namespace iLearn.Models
                     .HasColumnName("candidateimage")
                     .IsUnicode(false);
 
-<<<<<<< HEAD
+
                 entity.Property(e => e.Candidatename)
                     .HasColumnName("candidatename")
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-=======
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+
                 entity.Property(e => e.Candidatenumber)
                     .HasColumnName("candidatenumber")
                     .HasMaxLength(50)
@@ -84,14 +83,7 @@ namespace iLearn.Models
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Createddate)
-                    .HasColumnName("createddate")
-<<<<<<< HEAD
-                    .HasColumnType("date")
-                    .HasDefaultValueSql("(getdate())");
-=======
-                    .HasColumnType("date");
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+                
 
                 entity.Property(e => e.Degreeid).HasColumnName("degreeid");
 
@@ -152,14 +144,7 @@ namespace iLearn.Models
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Createddate)
-                    .HasColumnName("createddate")
-<<<<<<< HEAD
-                    .HasColumnType("date")
-                    .HasDefaultValueSql("(getdate())");
-=======
-                    .HasColumnType("date");
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+               
 
                 entity.Property(e => e.Degreeid).HasColumnName("degreeid");
 
@@ -241,12 +226,11 @@ namespace iLearn.Models
 
                 entity.Property(e => e.Createddate)
                     .HasColumnName("createddate")
-<<<<<<< HEAD
+
                     .HasColumnType("date")
-                    .HasDefaultValueSql("(getdate())");
-=======
+                    .HasDefaultValueSql("(getdate())")
                     .HasColumnType("date");
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+
 
                 entity.Property(e => e.Isactive).HasColumnName("isactive");
 
@@ -275,12 +259,11 @@ namespace iLearn.Models
 
                 entity.Property(e => e.Createddate)
                     .HasColumnName("createddate")
-<<<<<<< HEAD
+
                     .HasColumnType("date")
                     .HasDefaultValueSql("(getdate())");
-=======
-                    .HasColumnType("date");
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+
+     
 
                 entity.Property(e => e.Isactive).HasColumnName("isactive");
 
@@ -294,14 +277,13 @@ namespace iLearn.Models
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-<<<<<<< HEAD
+
                 entity.Property(e => e.Orgdistrict)
                     .HasColumnName("orgdistrict")
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-=======
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+
                 entity.Property(e => e.Orglocality)
                     .HasColumnName("orglocality")
                     .HasMaxLength(100)
@@ -364,12 +346,12 @@ namespace iLearn.Models
 
                 entity.Property(e => e.Createddate)
                     .HasColumnName("createddate")
-<<<<<<< HEAD
+
                     .HasColumnType("date")
-                    .HasDefaultValueSql("(getdate())");
-=======
+                    .HasDefaultValueSql("(getdate())")
+
                     .HasColumnType("date");
->>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
+
 
                 entity.Property(e => e.Email)
                     .HasColumnName("email")
