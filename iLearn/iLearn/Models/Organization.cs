@@ -16,7 +16,10 @@ namespace iLearn.Models
         public string Orgaddress { get; set; }
         public string Orglocality { get; set; }
         public string Orgstate { get; set; }
+<<<<<<< HEAD
         public string Orgdistrict { get; set; }
+=======
+>>>>>>> f321f6b736be4fea3929e06a7671015988f60a36
         public string Orgcountry { get; set; }
         public string Orgpin { get; set; }
         public bool? Isactive { get; set; }
